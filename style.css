@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 174px;
+}
+
+.logo {
+    background-image: url("amazon\ logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 170px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* box2 */
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.add-second {
+    font-size: 1rem;
+}
+
+.add-icon {
+    display: flex;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 153, 62);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: white;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-search:hover {
+    border: 2px solid orangered;
+}
+
+/**b0x4**/
+span {
+    font-size: 0.7rem;
+
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box 6**/
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops {
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+
+
+}
+
+.panel-ops p {
+    display: inline;
+    margin: 5px;
+}
+
+.hero {
+    background-image: url("GW_HERO_PC_1_2x._CB542130280_.jpg");
+    height: 350px;
+    background-size: cover;
+}
+
+
+.box{
+    border: 2px solid transparent;
+    height: 435px;
+    width: 23%;
+    background-color: white;
+    margin-top: 1.5rem;
+}
+.shop-section{
+    
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+
+
+}
+.box-img{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+    
+    
+}
+.foot-panel{
+    background-color:#37475A;
+    height: 49px;
+    color: #fff;
+    font-size: 0.80rem;
+    text-align: center;
+    display: block;
+    align-content: center;
+}
+.main-panel{
+    
+    background-color: #232F3E;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly
+    
+}
+.panel-colm li{
+    color: #DDDDDD;
+    display: flex;
+    list-style-type: none;
+    font-size: 0.90rem;
+    font-weight: 500;
+    margin-top: 10px;
+
+
+    
+}
+.panel-colm{
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 0.8px;
+    text-decoration-style: solid;
+}
+.panel2{
+    background-color: #232F3E;
+    border-top: 0.033px solid #c9c0c096;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("amazon\ logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+    background-color:#232F3E ;
+}
+.panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+
+   
+}
+.pages{
+font-size: 0.7rem;
+text-align: center;
+padding-top: 25px;
+
+}
+.copyright{
+    padding-top: 5px;
+font-size: 0.7rem;
+text-align: center;
+}
+.pages a{
+    padding: 5px;
+}
+.panel4 p{
+    font-weight:100 ;
+    font-size: 1rem;
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.80px;
+
+}
+
+
