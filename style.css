@@ -253,5 +253,11 @@ text-align: center;
     text-decoration-thickness: 0.80px;
 
 }
-
+/* /------------------------------/ */
+.image-mask{
+    position:relative;
+    mask-imgae:linear-gradient(to top , rgba(0,0,0,1),rgba(0,0,0,0) ); 
+    -webkit-mask-image :linear-gradient(to top , rgba(0,0,0,1),rgba(0,0,0,0) );
+}
+/* /------------------------------/ */
 
